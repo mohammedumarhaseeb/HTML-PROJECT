@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hotel Booking</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="search">
+        <div class="container">
+            <h2>Find Your Perfect Hotel</h2>
+            <form>
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" placeholder="Enter location">
+
+                <label for="Dates">Check-in / Check-out Dates</label>
+                <input type="Date" id="check-in" name="check-in">
+                <input type="Date" id="check-out" name="check-out">
+
+                <label for="guests">Guests</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" placeholder="Number of guests">
+
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="hotel-list">
+        <div class="container">
+            <h2>Top Hotels</h2>
+            <div class="hotel-item">
+                <img src="HOTEL-1.jpg" alt="Hotel Image">
+                <div class="hotel-info">
+                    <h3>Ocean View Hotel</h3>
+                    <p class="location">Miami, Florida</p>
+                    <p class="rating">⭐⭐⭐⭐⭐ (5/5)</p>
+                    <p class="price">$200 per night</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="hotel-item">
+                <img src="HOTEl-2.jpg" alt="Hotel Image">
+                <div class="hotel-info">
+                    <h3>Mountain Retreat</h3>
+                    <p class="location">Denver, Colorado</p>
+                    <p class="rating">⭐⭐⭐⭐ (4/5)</p>
+                    <p class="price">$150 per night</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="hotel-item">
+                <img src="HOTEL-3.jpg" alt="Hotel Image">
+                <div class="hotel-info">
+                    <h3>City Center Inn</h3>
+                    <p class="location">New York City, New York</p>
+                    <p class="rating">⭐⭐⭐⭐⭐ (5/5)</p>
+                    <p class="price">$180 per night</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hotel Booking. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
